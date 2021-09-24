@@ -28,11 +28,11 @@ if __name__ == '__main__':
 	average_face = mean.reshape(sz)
 	eigenFaces = [] 
 	
-  for eigenVector in eigenVectors:
+  	for eigenVector in eigenVectors:
 		eigenFace = eigenVector.reshape(sz)
 		eigenFaces.append(eigenFace) 
 	
-  image_file = "test/000223.jpg"
+  	image_file = "test/000223.jpg"
 	print("Test Image is being read and vectorized!");
 	im = cv2.imread(image_file)
 	im = np.float32(im)/255.0
