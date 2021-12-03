@@ -11,8 +11,8 @@ This repository contains the code for the python project on “Finding set of fa
 ![Output2](https://user-images.githubusercontent.com/61888364/144326381-e631a083-ac33-4c29-b278-1b6ec0508db5.PNG)
 
 - We start it by printing the eigenVectors stored in an array, read eigen faces and finally read and process the chosen test image.
-- The result gets displayed in new window as described in the video below. It has a scroll bar for increasing or decreasing the number of eigen faces used for reconstruction. 
-- By trying all combinations, we can dynamically see the best reconstructed image. The reconstructed image on the right dynamically changes with respect to the number of eigen faces chosen on scroll bar.
+- The result gets displayed in new window as described in the video below. It has a slider for increasing or decreasing the number of eigen faces used for reconstruction. 
+- By trying all combinations, we can dynamically see the best reconstructed image. The reconstructed image on the right dynamically changes with respect to the number of eigen faces chosen on slider.
 
 ## Output Window :
 https://user-images.githubusercontent.com/61888364/144326239-ee2a6e46-55ad-44cc-80ab-81f6305dc75d.mp4
