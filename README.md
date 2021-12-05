@@ -21,7 +21,7 @@ This repository contains the code for the python project on “Finding set of fa
   - Then the eigen vectors held in a structure of eigenVectors where eigen_face[i][j] = j-th eigen face of i-th image are displayed on the terminal as shown below.
   - Then we enter the name of image present in test folder in format: test/image_name.jpg. The image will be read and vectorized. After that the final results get displayed in new window. The final output window with original image on left and re-constructed image on right as described in the video below. 
   - It has a slider for increasing or decreasing the number of eigen faces used for reconstruction. By trying all combinations, we can dynamically see the best reconstructed image. 
-  - The reconstructed image on the right dynamically changes with respect to the number of eigen faces chosen on slider.
+  - The reconstructed image dynamically changes with respect to the number of eigen faces chosen on slider.
 ![image](https://user-images.githubusercontent.com/61888364/144732336-c0efb3ad-28b6-4d88-90b5-cedc0cd67ba9.png)
   - ### **Output Window :**
 https://user-images.githubusercontent.com/61888364/144326239-ee2a6e46-55ad-44cc-80ab-81f6305dc75d.mp4
