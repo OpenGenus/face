@@ -7,7 +7,7 @@ This repository contains the code for the python project on “Finding set of fa
 - If we enter 1, then the model starts to train & following output is generated on the terminal : ![image](https://user-images.githubusercontent.com/61888364/144732121-b379c838-1e56-4a5f-a82e-6b2067fb9bdb.png)
 - If we enter 2, then the collage of input/test images are printed on the output window. 
 ![image](https://user-images.githubusercontent.com/61888364/144732186-7c4011cf-36f1-4240-9463-73c37c2ca590.png) 
-  - Output Window :
+  - Output Window : <break>
 ![image](https://user-images.githubusercontent.com/61888364/144733058-e0e21775-4821-4720-8e7a-640c2c9544f8.png)
 - If we enter 3, then the mean face and first five eigen faces get printed on the output window one by one.
 ![image](https://user-images.githubusercontent.com/61888364/144732502-c1d58c7e-dde1-4262-9a46-db8a173d6caa.png)
