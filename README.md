@@ -1,7 +1,9 @@
 # Finding set of faces when combined results in face of person A
 This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". 
 - We start the application by opening the terminal in this folder and typing the command :  ```python main.py```
-- The following 5 options are shown in the terminal. Then we would enter the number of the command of our choice between 1-5. : ![image](https://user-images.githubusercontent.com/61888364/144732083-68d5123d-a561-40be-875f-bb84c9646485.png)
+- The following 5 options are shown in the terminal. Then we would enter the number of the command of our choice between 1-5. : 
+![image](https://user-images.githubusercontent.com/61888364/144733110-9caf58c2-0590-4ec6-ad54-ebae83dd9516.png)
+
 - If we enter 1, then the model starts to train & following output is generated on the terminal : ![image](https://user-images.githubusercontent.com/61888364/144732121-b379c838-1e56-4a5f-a82e-6b2067fb9bdb.png)
 - If we enter 2, then the collage of input/test images are printed on the output window. 
 ![image](https://user-images.githubusercontent.com/61888364/144732186-7c4011cf-36f1-4240-9463-73c37c2ca590.png) 
