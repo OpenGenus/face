@@ -1,5 +1,7 @@
 # Finding set of faces when combined results in face of person A
-This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". 
+This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". The Flow of Code of the application is as follows : 
+![flow_chart](https://user-images.githubusercontent.com/61888364/144736192-361c955c-8b2c-4f47-b6cd-1ce5ac78360e.png)
+
 - We start the application by opening the terminal in this folder and typing the command :  ```python main.py```
 - The following 5 options are shown in the terminal. Then we would enter the number of the command of our choice between 1-5. : 
 ![image](https://user-images.githubusercontent.com/61888364/144733110-9caf58c2-0590-4ec6-ad54-ebae83dd9516.png)
