@@ -34,7 +34,7 @@ def matrix(images):
 		data[k,:] = image
 	return data
 
-if __name__ == '__main__':
+def training():
 	directory_name = "sample"
 	images = readImage(directory_name)
 	sz = images[0].shape
