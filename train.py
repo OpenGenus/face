@@ -2,6 +2,7 @@ import os
 import sys
 import cv2
 import numpy as np
+import argparse
 
 def readImage(path):
 	print("Sample Images are being read from : " + path, flush=True)
@@ -35,7 +36,6 @@ def matrix(images):
 	return data
 
 def training():
-	directory_name = "sample"
 	images = readImage(directory_name)
 	sz = images[0].shape
 	data = matrix(images)
