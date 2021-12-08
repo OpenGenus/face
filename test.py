@@ -1,13 +1,14 @@
 import os
 import sys
 import cv2
+import argparse
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.image import imread
 from PIL import Image as im
-    
+
 def print_test():
-	dataset_path = 'test/'
+	dataset_path = input("Enter full path to test directory in format C:\\Users\\ .. \\test  : \n") + '/'
 	dataset_dir  = os.listdir(dataset_path)
 	width  = 178
 	height = 218
@@ -57,11 +58,25 @@ def print_eigen():
     
 def recons():
 	def reconstruction(*args):
-		final_output = average_face
+		final_output = average_face    
+		percentage = {}
 		for k in range(0,args[0]):
 			weight = np.dot(imVector, eigenVectors[k])
 			final_output = final_output + eigen_face[k] * weight
+			percentage[k] = abs(weight)
 		disp(im, final_output)
+        
+		total = 0
+		if(len(percentage) > 0):
+			print("\nPercentage of Eigen Faces that make current output :")
+		for i in percentage:
+			total = total + abs(percentage[i])
+		for i in percentage:
+			val = float(abs((percentage[i]/total)*100))
+			if(val > 0 ):
+				print(str("{:.2f}".format(val)) + "% of Face "+ str(i+1))
+
+            
         
 	def disp(x, y):
 		final_output = np.hstack((x,y))	
@@ -95,8 +110,7 @@ def recons():
 		eigen_face.append(eigenFace) 
     
 
-	image_file = input('Enter the name of image present in test folder in format: test/image_name.jpg\n')
-    # read test image & process it
+	# read test image & process it
 	# example of image_file = "test/300000.jpg"
 	print("Test Image is being read and vectorized!")
 	eigen_vec=[]
