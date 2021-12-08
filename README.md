@@ -10,10 +10,10 @@ The default mode of the application is interactive mode which is user friendly. 
 - The following 5 options are shown in the terminal. Then we would enter the number of the command of our choice between 1-5. : 
 ![image](https://user-images.githubusercontent.com/61888364/144733110-9caf58c2-0590-4ec6-ad54-ebae83dd9516.png)
 
-- If we enter 1, the directory for training dataset is asked. Then the model starts to train & following output is generated :
+- If we enter 1, the directory for training dataset is asked. Then the model starts to train & following output is generated : <br>
 ![image](https://user-images.githubusercontent.com/61888364/145155249-5ded11e3-9860-4f55-8a8e-512bed106870.png)
 
-- If we enter 2, then the full file path to test directory is asked. Then the collage of input/test images are printed as output :
+- If we enter 2, then the full file path to test directory is asked. Then the collage of input/test images are printed as output on terminal: <br>
 ![option2](https://user-images.githubusercontent.com/61888364/145155791-39ec58ae-1eef-4bab-9bbc-214617b63282.png)
   - Output Window : <break>
 ![image](https://user-images.githubusercontent.com/61888364/144733058-e0e21775-4821-4720-8e7a-640c2c9544f8.png)
@@ -30,7 +30,7 @@ The default mode of the application is interactive mode which is user friendly. 
   - Then we enter the name of folder with image in format: directory/image_name.jpg. The image will be read and vectorized. After that the final results get displayed in new window. The final output window with original image on left and re-constructed image on right as described in the video below. 
   - It has a slider for increasing or decreasing the number of eigen faces used for reconstruction. By trying all combinations, we can dynamically see the best reconstructed image. 
   - The reconstructed image dynamically changes with respect to the number of eigen faces chosen on slider.
-  - The percentage of Eigen Faces used for reconstructing output image is dynamically printed on the terminal as we move the slider.
+  - The percentage of Eigen Faces used for reconstructing output image is dynamically printed on the terminal as we move the slider. <br>
 ![image](https://user-images.githubusercontent.com/61888364/145156635-ee8d89f8-f1b3-4ab9-b631-abab8787266a.png)
 
   - ### **Output Window :**
