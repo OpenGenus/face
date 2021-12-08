@@ -1,8 +1,9 @@
 # Finding set of faces when combined results in face of person A
-This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". The Flow of Code of the application is as follows :
+This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". <br>
+**The default mode of the application is interactive mode which is user friendly. The other mode is Command Line Interface.**
 
 ## Default Mode (Interactive Mode): 
-The default mode of the application is interactive mode which is user friendly. The other mode is Command Line Interface. The detailed Flow of Code for our Interactive or Default Mode is below :
+The detailed Flow of Code for our Interactive or Default Mode is below :
 
 ![flow_chart](https://user-images.githubusercontent.com/61888364/144736192-361c955c-8b2c-4f47-b6cd-1ce5ac78360e.png)
 
