@@ -45,9 +45,10 @@ If we wish to use the Command Line Interface, we can do so by typing the followi
   ```
 **We can enter mode = 1 for CLI mode, the directory/image.jpg for the Test Image and the directory for the Training Dataset.**
 
-In the below example, we entered test/300000.jpg for Test Image and  sample2 for Training Dataset. 
-The model is trained from the pca_parameters.yml and the Test Image is reconstructed. The percentage of Eigen Faces used to reconstruct the output image is dynamically printed on terminal as we slide the slider.
+- In the below example, we entered test/300000.jpg for Test Image and  sample2 for Training Dataset. 
+- The model is trained from the pca_parameters.yml and the Test Image is reconstructed. 
+- The percentage of Eigen Faces used to reconstruct the output image is dynamically printed on terminal as we slide the slider.
 
 ![CLI](https://user-images.githubusercontent.com/61888364/145159037-71a3d602-510c-418d-be9c-af3617968d27.png)
   
-Same Output Window of Reconstructed Image is displayed in CLI mode as seen in Interactive Mode.
+- Same Output Window of Reconstructed Image is displayed in CLI mode as seen in Interactive Mode.
