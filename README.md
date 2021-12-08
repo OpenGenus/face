@@ -1,7 +1,7 @@
 # Finding set of faces when combined results in face of person A
 This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". The Flow of Code of the application is as follows :
 
-### Default Mode : 
+## Default Mode (Interactive Mode): 
 The default mode of the application is interactive mode which is user friendly. The other mode is Command Line Interface. The detailed Flow of Code for our Interactive or Default Mode is below :
 
 ![flow_chart](https://user-images.githubusercontent.com/61888364/144736192-361c955c-8b2c-4f47-b6cd-1ce5ac78360e.png)
@@ -37,3 +37,17 @@ The default mode of the application is interactive mode which is user friendly. 
 https://user-images.githubusercontent.com/61888364/144326239-ee2a6e46-55ad-44cc-80ab-81f6305dc75d.mp4
  
 - Finally to exit the terminal we must enter 5. If we enter any other value than 1 to 5 then "invalid mode" output will be displayed.
+
+## Mode 1 (Command Line Interface)
+If we wish to use the Command Line Interface, we can do so by typing the following command :
+  ```
+  python main.py --mode 1 --input directory/image.jpg --dataset directory
+  ```
+**We can enter mode = 1 for CLI mode, the directory/image.jpg for the Test Image and the directory for the Training Dataset.**
+
+In the below example, we entered test/300000.jpg for Test Image and  sample2 for Training Dataset. 
+The model is trained from the pca_parameters.yml and the Test Image is reconstructed. The percentage of Eigen Faces used to reconstruct the output image is dynamically printed on terminal as we slide the slider.
+
+![CLI](https://user-images.githubusercontent.com/61888364/145159037-71a3d602-510c-418d-be9c-af3617968d27.png)
+  
+Same Output Window of Reconstructed Image is displayed in CLI mode as seen in Interactive Mode.
