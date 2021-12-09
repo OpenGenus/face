@@ -15,14 +15,14 @@ if(args.mode == False):
         except ValueError:
             print ("Not a number")
         if choice == 1:
-            train.directory_name = input('Enter the name of directory :\n')
+            train.directory_name = input('Enter the path of directory :\n')
             train.training()
         elif choice == 2:
             test.print_test()
         elif choice == 3:
             test.print_eigen()
         elif choice == 4:
-            test.image_file = input('Enter the name of image in format: directory/image_name.jpg\n')
+            test.image_file = input('Enter the name of image in format: directory_path/.../image_name.jpg\n')
             test.recons()
         elif choice == 5:
             print("Thank you for your visit!")
