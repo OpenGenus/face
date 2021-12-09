@@ -1,0 +1,2 @@
+include face_app/*.py
+include face_app/*.yml
