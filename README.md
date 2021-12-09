@@ -1,6 +1,7 @@
 # Finding set of faces when combined results in face of person A
 This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". <br>
 **The project has been published as a pip package and can be installed by running ```pip install face-recons==0.0.1``` in terminal.**
+<br>
 **After successfully installing the package, user can enter python interpreter and enter ```from face_recons import main```. Following it they will enter the Default Mode of the application.**
 
 **The default mode of the application is interactive mode which is user friendly. The other mode is Command Line Interface.**
