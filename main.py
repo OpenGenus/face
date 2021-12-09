@@ -1,6 +1,7 @@
-import test
-import train
+from face_recons import test
+from face_recons import train
 import argparse
+
 
 parser = argparse.ArgumentParser(description = "Face Application - Command Line Interface")
 parser.add_argument("--mode", default = False, help="Enable Command Line Interface", action='store')
