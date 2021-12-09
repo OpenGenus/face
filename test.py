@@ -28,9 +28,11 @@ def print_test():
     
 def print_eigen():  
 	neutral = []
-	for i in range(9):
+	print('Enter path to 7 images below to produce mean face & eigen faces :\n')
+	for i in range(7):
 		i+=1
-		img = im.open(f'sample/00000{i}.jpg').convert('L')
+		p = input('Enter path to test image ' + str(i) + ' : \n')
+		img = im.open(p).convert('L')
 		img = img.resize((58,49), im.ANTIALIAS)
 		img2 = np.array(img).flatten() # vectorization
 		neutral.append(img2)
