@@ -1,5 +1,5 @@
 # Finding set of faces when combined results in face of person A
-This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". <br>
+This repository contains the code for the python project on [“Finding set of faces when combined results in face of person A"](https://iq.opengenus.org/project-on-reconstructing-face/). <br>
 
 **The project has been published as a [pip package](https://pypi.org/project/face-recons/0.0.1/) and can be installed by running ```pip install face-recons==0.0.1``` in terminal.**
 <br>
